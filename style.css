@@ -400,21 +400,23 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
 }
 
 ul {
-	list-style: disc;
+	list-style: none inside none;
 }
 
 ol {
-	list-style: decimal;
+	list-style: circle inside none;
+    padding: none;
 }
 
 li > ul,
 li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
 }
 
 dt {
