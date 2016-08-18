@@ -248,13 +248,27 @@ optgroup {
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;  
+    width: 640px;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-td,
+td {
+    background: #C77671;
+    text-align: center;
+    color:black;
+}
+
 th {
-	padding: 0;
+	background: #CC432B; 
+    font-weight: bold;
+    color:white;    
+}
+
+#wp-calendar{
+    width: 240px;
 }
 
 /*--------------------------------------------------------------
@@ -302,7 +316,7 @@ i {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 10px solid #CC432B;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
@@ -517,18 +531,25 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #184F2E;
+    text-decoration: none;
+    background-color: none;
 }
 
 a:visited {
-	color: purple;
+	color: darkred;
+    text-decoration: none;
+    background-color: none;
 }
 
-a:hover,
-a:focus,
-a:active {
-	color: midnightblue;
+a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    background-color: none;
 }
+
+a:focus,
+a:active
 
 a:focus {
 	outline: thin dotted;
